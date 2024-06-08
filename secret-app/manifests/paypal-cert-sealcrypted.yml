@@ -1,0 +1,24 @@
+{
+  "kind": "SealedSecret",
+  "apiVersion": "bitnami.com/v1alpha1",
+  "metadata": {
+    "name": "paypal-cert",
+    "namespace": "argocd",
+    "creationTimestamp": null
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "name": "paypal-cert",
+        "namespace": "argocd",
+        "creationTimestamp": null
+      },
+      "type": "Opaque",
+      "data": null
+    },
+    "encryptedData": {
+      "paypal.crt": "AgCGn92sVG2b3ZJKo5JSwWEN+x49t+h19Fk8+MRxFsCnuqTaEfhbpy93F6BvIOEWxGRgFMOJfBeg8kDL+UIe71XahDFkuJJpM1GZLIGoezPwlPQTUakBSX7AytPycuEWp6M8HlGCIIXDu55vZnEuvYNlQLmaTnML8/L4RAc00yhipySKumyiN>
+    }
+  }
+}
+
